@@ -1,6 +1,6 @@
-let aname = "Christian Paterson";
-let a_message = "cs190 JavaScript Lab 2";
-let code = 880;
+var aname = "Christian Paterson";
+var a_message = "cs190 JavaScript Lab 2";
+var code = 880;
 
 function displayinfo470() {
   alert(`${aname} has completed ${a_message} and his code is ${code}.`);
