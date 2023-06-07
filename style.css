@@ -12,3 +12,7 @@ a {
   text-decoration: none;
   color: #a786df;
 }
+
+hr {
+  margin-top: 20px;
+}
