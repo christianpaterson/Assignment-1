@@ -1,16 +1,16 @@
 // Assignment 6
-const lineBreaksBtn = document.querySelector('.line');
-const numberCardsBtn = document.querySelector('.cards');
+// const lineBreaksBtn = document.querySelector('.line');
+// const numberCardsBtn = document.querySelector('.cards');
 const lineBreakElement = document.getElementById("breaks927");
 const numberCardsElement = document.getElementById("cards659");
 
-lineBreaksBtn.addEventListener('click', function() {
-  getBreaks927();
-})
+// lineBreaksBtn.addEventListener('click', function() {
+//   getBreaks927();
+// })
 
-numberCardsBtn.addEventListener('click', function() {
-  getCards659();
-})
+// numberCardsBtn.addEventListener('click', function() {
+//   getCards659();
+// })
 
 function getBreaks927() {
   do {
@@ -36,18 +36,18 @@ function getCards659() {
 
 
 // Assignment 5
-const NameBtn = document.querySelector('.name');
-const AgeBtn = document.querySelector('.age');
+// const NameBtn = document.querySelector('.name');
+// const AgeBtn = document.querySelector('.age');
 const nameElement = document.getElementById("name743");
 const ageElement = document.getElementById("age212");
 
-NameBtn.addEventListener('click', function() {
-  getName743();
-})
+// NameBtn.addEventListener('click', function() {
+//   getName743();
+// })
 
-AgeBtn.addEventListener('click', function() {
-  getAge212();
-})
+// AgeBtn.addEventListener('click', function() {
+//   getAge212();
+// })
 
 function getName743() {
   var userName = prompt("Please enter your name: ");
@@ -68,7 +68,7 @@ function getAge212() {
 
 
 // Assignment 4
-var thetype = "direct";
+var thetype = 'direct';
 
 function changetype351() {
   var oldtype = thetype;
@@ -97,7 +97,7 @@ function displaytype913() {
 
 
 // Assignment 3
-var special = 1;
+var special = '1';
 function displayspecial485() {
   if (special == 1) {
    alert("The current special is #1");
