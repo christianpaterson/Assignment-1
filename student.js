@@ -97,16 +97,16 @@ function displaytype913() {
 
 
 // Assignment 3
-var special = '1';
+var special = 1;
 function displayspecial485() {
-  if (special == 1) {
+  if (special === 1) {
    alert("The current special is #1");
   // Unterminated string literal
-  } else if (special == 2)  {
+  } else if (special === 2)  {
   // ')' expected.
    alert("The current special is #2");
   }
-  if (special == 3 )  {
+  if (special === 3 )  {
    alert("The current special is #3");
   // ')' expected.
   }
